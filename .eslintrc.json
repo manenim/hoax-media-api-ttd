@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "parserOptions": {
+         "ecmaVersion": 6,
+         "sourceType": "module"
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "env": { 
+     //     "es2018": true,
+         "node": true,
+         "es6": true
+    },
+    "rules": {
+         "no-console": "error",
+         "comma-style": ["warn", "single"]
+    }
+}
